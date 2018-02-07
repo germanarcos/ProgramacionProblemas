@@ -1,0 +1,24 @@
+
+public class Empleados {
+	protected String nombre;
+	protected String sueldo;
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public void imprimeSueldo() {
+		System.out.println(sueldo);
+	}
+	public void setSueldo(String sueldo) {
+		this.sueldo = sueldo;
+	}
+	public void setTodo(String sueldo, String nombre){
+		this.nombre = nombre;
+		this.sueldo = sueldo;
+	}
+	public void imprimeTodo(){
+		
+	}
+}

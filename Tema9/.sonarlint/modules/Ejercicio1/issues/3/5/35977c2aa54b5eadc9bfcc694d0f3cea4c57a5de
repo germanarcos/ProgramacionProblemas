@@ -1,0 +1,11 @@
+
+msquid:S1161":Add the "@Override" annotation above this method signature(ºæÏä8¶Íª¶–,HERMAJORZ
+CODE_SMELL
+Fsquid:S1220""Move this file to a named package.HFRMINORZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘ù£Ä8ÇÒ¯¶–,HGRMAJORZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(ËžÕ»8ÇÒ¯¶–,HHRMAJORZ
+CODE_SMELL

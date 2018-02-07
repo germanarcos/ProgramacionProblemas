@@ -1,0 +1,8 @@
+
+public class Empleado extends Empresa {
+	static int sueldoBase = 1000;
+	String nombre;
+	int edad;
+	int porcentajeIncremento;
+	Empleado();
+}

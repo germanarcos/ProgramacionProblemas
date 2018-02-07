@@ -1,0 +1,16 @@
+
+public class Jefes extends Empleados {
+	private String titulo;
+	private String departamento;
+	
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	public void setDepartamento(String departamento) {
+		this.departamento = departamento;
+	}
+	
+	public void imprimeTodo(){
+		super.imprimeTodo();
+	}
+}

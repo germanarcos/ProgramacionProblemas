@@ -1,0 +1,29 @@
+
+public class Jefe extends Empleado {
+	static int plus = 250;
+	String nombreDepart;
+	sueldoFinal = ((sueldoBase + plus) * ((100 + porcentajeIncremento) / 100));
+
+	Jefe(String nombre, int edad, int porcentajeIncremento, String nombreDepart) {
+		this.nombre = nombre;
+		this.edad = edad;
+		this.porcentajeIncremento = porcentajeIncremento;
+		this.nombreDepart = nombreDepart;
+		sueldoFinal = ((sueldoBase + plus) * ((100 + porcentajeIncremento) / 100));
+	}
+
+	public void setNombreDepart(String nombreDepart) {
+		this.nombreDepart = nombreDepart;
+	}
+
+	Jefe() {
+		nombreDepart = "";
+		sueldoFinal = ((sueldoBase + plus) * ((100 + porcentajeIncremento) / 100));
+	}
+
+	public String toString() {
+		return nombreEmpresa + "\nJefe:" + nombre + " Departamento: " + nombreDepart + " " + edad + " años "
+				+ sueldoFinal + "€.";
+	}
+
+}

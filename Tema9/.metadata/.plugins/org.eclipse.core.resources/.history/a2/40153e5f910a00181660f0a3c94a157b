@@ -1,0 +1,6 @@
+
+public class Jefes extends Empleados {
+	private String titulo;
+	private String departamento;
+	
+}

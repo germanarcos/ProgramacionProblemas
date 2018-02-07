@@ -1,0 +1,4 @@
+
+public class Empresa {
+	final String nombreEmpresa = "Eléctrica, SA";
+}

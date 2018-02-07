@@ -1,0 +1,16 @@
+
+public class Empleado {
+	final static private String nombreEmpresa = "Eléctrica, SA";
+	static int sueldoBase = 1000;
+	String nombre;
+	int edad;
+	int porcentajeIncremento;
+	int sueldoFinal;
+	Empleado() {
+		
+	}
+	@Override
+	public String toString(){
+		return "Empleado:"+ nombreEmpresa+" nombre "+edad+" años "+sueldoFinal+"€.";
+	}
+}

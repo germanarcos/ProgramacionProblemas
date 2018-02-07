@@ -1,0 +1,24 @@
+
+public class Gestion {
+	public static void main(String[] args) {
+
+		switch (Leer.pedirEntero(menu())) {
+		case 1:
+			break;
+		case 2:
+			break;
+		case 3:
+			break;
+		case 0:
+			break;
+		default:
+			Leer.mostrarEnPantalla("No has elegido una opción correcta");
+			break;
+		}
+	}
+
+	public static String menu() {
+		return ("1. Modificar el sueldo base de todos los empleados." + "\n2. Modificar el plus de todos los jefes."
+				+ "\n3. Visualizar los datos de todos los empleados." + "\n0. Salir.");
+	}
+}

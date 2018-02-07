@@ -1,0 +1,31 @@
+
+public class Jefe extends Empleado {
+	static double plus = 250;
+	String nombreDepart;
+	static double sueldofinal;
+
+	Jefe(String nombre, int edad, String nombreDepart) {
+		this.nombre = nombre;
+		this.edad = edad;
+		this.nombreDepart = nombreDepart;
+		sueldoFinal = (sueldoBase + plus);
+	}
+
+	public void setNombreDepart(String nombreDepart) {
+		this.nombreDepart = nombreDepart;
+	}
+
+	Jefe() {
+		nombreDepart = "";
+	}
+
+	public String toString() {
+		return nombreEmpresa + "\nJefe:" + nombre + " Departamento: " + nombreDepart + " " + edad + " años "
+				+ sueldoFinal + "€.";
+	}
+
+	public static void updateSueldo(double plus) {
+		Jefe.plus = plus;
+		sueldofinal = sueldoBase + plus;
+	}
+}

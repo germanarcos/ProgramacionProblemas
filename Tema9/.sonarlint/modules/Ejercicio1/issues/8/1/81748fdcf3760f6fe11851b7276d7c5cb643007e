@@ -1,0 +1,20 @@
+
+Fsquid:S1220""Move this file to a named package.H$RMINORZ
+CODE_SMELL
+‹squid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(ÉöëÙúÿÿÿÿ8Ó­”Ş–,H%RMINORZ
+CODE_SMELL
+…squid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(¼è‘Y8Ó­”Ş–,H&RMINORZ
+CODE_SMELL
+‹squid:ModifiersOrderCheck1"EReorder the modifiers to comply with the Java Language Specification.(ƒğ™óıÿÿÿÿ8Ó­”Ş–,H'RMINORZ
+CODE_SMELL
+†squid:ModifiersOrderCheckK"EReorder the modifiers to comply with the Java Language Specification.(ƒ¾ 8Ó­”Ş–,H(RMINORZ
+CODE_SMELL
+‹squid:ModifiersOrderChecke"EReorder the modifiers to comply with the Java Language Specification.(¬éÿêúÿÿÿÿ8Ó­”Ş–,H)RMINORZ
+CODE_SMELL
+Ÿsquid:S1192%"iDefine a constant instead of duplicating this literal "Vuelve a introducir el dato, por favor: " 6 times.(¶ÄÉÿ8Ó­”Ş–,H*RCRITICALZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(³ì¬ë8Ó­”Ş–,H+RMAJORZ
+CODE_SMELL
+rsquid:S1118":Add a private constructor to hide the implicit public one.(ÜÀ²¾ùÿÿÿÿ8Ó­”Ş–,H,RMAJORZ
+CODE_SMELL

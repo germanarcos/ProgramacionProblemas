@@ -1,0 +1,16 @@
+
+public class Empleado {
+	final private String nombreEmpresa = "Eléctrica, SA";
+	static int sueldoBase = 1000;
+	String nombre;
+	int edad;
+	int porcentajeIncremento;
+	int sueldoFinal;
+	Empleado() {
+		
+	}
+	
+	public String toString(){
+		return "nyeh";
+	}
+}

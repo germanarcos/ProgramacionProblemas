@@ -1,0 +1,41 @@
+
+public class Empleado {
+	final static private String nombreEmpresa = "Eléctrica, SA";
+	static double sueldoBase = 1000;
+	String nombre;
+	int edad;
+	int porcentajeIncremento;
+	int sueldoFinal;
+
+	Empleado() {
+
+	}
+	Empleado(String nombre, int edad, int porcentajeIncremento){
+		this.nombre=nombre;
+		this.edad=edad;
+		this.porcentajeIncremento=porcentajeIncremento;
+		sueldoFinal= (sueldoBase*())
+	}
+
+	@Override
+	public String toString() {
+		return "Empleado:" + nombreEmpresa + " nombre " + edad + " años " + sueldoFinal + "€.";
+	}
+
+	public static void setSueldoBase(int sueldoBase) {
+		Empleado.sueldoBase = sueldoBase;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+
+	public void setPorcentajeIncremento(int porcentajeIncremento) {
+		this.porcentajeIncremento = porcentajeIncremento;
+	}
+
+}
