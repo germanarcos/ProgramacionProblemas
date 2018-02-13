@@ -1,0 +1,17 @@
+
+public class Padre {
+	int anyos;
+	int croquetas;
+	Padre(){
+		anyos=0;
+		croquetas=0;
+	}
+	Padre(int anyos, int croquetas){
+		this.anyos = anyos;
+		this.croquetas= croquetas;
+	}
+	void visualizar(){
+		System.out.println(anyos +" anyos");
+		System.out.println(croquetas + " croquetas");
+	}
+}

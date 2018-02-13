@@ -1,0 +1,15 @@
+
+public class Hijo extends Padre{
+	int dientes;
+	Hijo(){
+		dientes=0;
+	}
+	Hijo(int anyos, int croquetas){
+		this.anyos=anyos;
+		this.croquetas=croquetas;
+	}
+	Hijo(int anyos, int croquetas, int dientes){
+		
+	}
+}
+

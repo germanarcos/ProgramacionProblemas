@@ -1,0 +1,18 @@
+
+public class Empleado implements Persona {
+	Empleado(){
+		
+	}
+	String nombre; 
+	String appellido;
+	Empleado(String nombre,String apellido,String ciudad,String calle,char puerta){
+		
+	}
+	public void pedirTodosDatos() {
+	};
+
+	Domicilio casa;
+	public void visualizarTodosDatos() {
+	};
+
+}

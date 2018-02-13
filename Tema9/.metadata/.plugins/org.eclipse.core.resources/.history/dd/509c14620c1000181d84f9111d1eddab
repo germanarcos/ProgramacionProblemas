@@ -1,0 +1,9 @@
+
+public class Cliente implements Persona {
+	public void pedirTodosDatos() {
+	};
+
+	public void visualizarTodosDatos() {
+	};
+	String nombreEmpresa = "jajaj";
+}

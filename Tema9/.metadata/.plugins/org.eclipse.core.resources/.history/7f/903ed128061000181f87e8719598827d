@@ -1,0 +1,4 @@
+
+public class prueba {
+	Padre padre [] = new Padre[]{new Padre(), new Padre(3,4), new Hijo(), new Hijo(5,6), new Hijo(7,8,9)};
+}

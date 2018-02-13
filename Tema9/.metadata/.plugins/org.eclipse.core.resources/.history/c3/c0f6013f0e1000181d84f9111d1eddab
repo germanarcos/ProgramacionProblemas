@@ -1,0 +1,12 @@
+
+public class Cliente implements Persona {
+	public void pedirTodosDatos() {
+	};
+
+	String Domicilio;
+
+	public void visualizarTodosDatos() {
+		System.out.println(nombreEmpresa);
+	};
+
+}

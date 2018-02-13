@@ -1,0 +1,5 @@
+
+public class prueba {
+	Padre padre [] = new Padre[10];
+	padre[1]= new Padre();
+}

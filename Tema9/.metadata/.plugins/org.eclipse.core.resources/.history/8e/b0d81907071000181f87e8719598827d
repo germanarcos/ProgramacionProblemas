@@ -1,0 +1,6 @@
+
+public interface Persona {
+	void pedirTodosDatos();
+	void visualizarTodosDatos();
+	
+}

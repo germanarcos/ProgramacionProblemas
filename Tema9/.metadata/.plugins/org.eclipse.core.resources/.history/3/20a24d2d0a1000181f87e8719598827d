@@ -1,0 +1,6 @@
+
+public class Empleado implements Persona{
+	public void pedirTodosDatos(){};
+	public void visualizarTodosDatos(){};
+
+}

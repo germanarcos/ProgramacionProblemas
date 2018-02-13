@@ -1,0 +1,6 @@
+
+public class Domicilio {
+	String calle;
+	String numero;
+	char puerta;
+}
