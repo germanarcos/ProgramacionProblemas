@@ -1,5 +1,0 @@
-
-public class Cliente implements Persona {
-	protected void pedirTodosDatos(){};
-	protected void visualizarTodosDatos(){};
-}

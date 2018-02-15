@@ -1,0 +1,18 @@
+import leer.Leer;
+
+public class main {
+	public static void main(String[] args) {
+		int botones;
+		switch (Leer.pedirEntero("1 muestra 0 sale")) {
+		case 1:
+			do{
+			botones = Leer.pedirEntero("Cuantos botones quieres");
+			Campo.Campo(botones);
+			}while((int)Math.sqrt(botones)**2!=botones);
+			break;
+		default:
+			System.out.println("bieen");
+			break;
+		}
+	}
+}

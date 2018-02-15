@@ -1,6 +1,0 @@
-
-public interface Persona {
-	private abstract void pedirTodosDatos();
-	private abstract void visualizarTodosDatos();
-	String nombreEmpresa = "Croquetas S.A.";
-}

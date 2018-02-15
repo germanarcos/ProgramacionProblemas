@@ -1,5 +1,0 @@
-
-public class Empresa {
-	final String nombreEmpresa;
-	nombreEmpresa="Eléctrica, SA";
-}

@@ -1,4 +1,0 @@
-
-public class Empleado extends Empresa{
-	static sueldoBase = 1000;
-}
