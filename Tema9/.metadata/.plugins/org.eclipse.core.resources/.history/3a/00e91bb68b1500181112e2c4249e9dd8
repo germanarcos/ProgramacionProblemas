@@ -1,0 +1,63 @@
+import utilidades.Fecha;
+import utilidades.Leer;
+public abstract class Empleado {
+	private String nombre;
+	private Fecha fechaNacimiento;
+	private static Integer siguiente;
+	private static final Float salarioBase = 1000F;
+	private Fecha fechaIngreso;
+	
+	public Integer edadEmpleado(Fecha hoy) {
+		Integer anyos = fechaNacimiento.difFechas(hoy) / 365;
+		return anyos;
+	}
+	
+	public abstract Float calculoNomina();
+
+	public Empleado(String nombre, Fecha fechaNacimiento, Float salarioBase, Fecha fechaIngreso) {
+		this.nombre = nombre;
+		this.fechaNacimiento = fechaNacimiento;
+		this.salarioBase = salarioBase;
+		this.fechaIngreso = fechaIngreso;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public Fecha getFechaNacimiento() {
+		return fechaNacimiento;
+	}
+
+	public void setFechaNacimiento(Fecha fechaNacimiento) {
+		this.fechaNacimiento = fechaNacimiento;
+	}
+
+	public static Integer getSiguiente() {
+		return siguiente;
+	}
+
+	public static void setSiguiente(Integer siguiente) {
+		Empleado.siguiente = siguiente;
+	}
+
+	public Float getSalarioBase() {
+		return salarioBase;
+	}
+
+	public void setSalarioBase(Float salarioBase) {
+		this.salarioBase = salarioBase;
+	}
+
+	public Fecha getFechaIngreso() {
+		return fechaIngreso;
+	}
+
+	public void setFechaIngreso(Fecha fechaIngreso) {
+		this.fechaIngreso = fechaIngreso;
+	}
+}

@@ -1,0 +1,70 @@
+import utilidades.Fecha;
+import utilidades.Leer;
+public abstract class Empleado {
+	private String nombre;
+	private Fecha fechaNacimiento;
+	private static Integer siguiente = 0;
+	private static final Float salarioBase = 1000F;
+	private Fecha fechaIngreso;
+	private Integer numeroEmpleado;
+	
+	public Integer edadEmpleado(Fecha hoy) {
+		Integer anyos = fechaNacimiento.difFechas(hoy) / 365;
+		return anyos;
+	}
+	
+	public abstract Float calculoNomina();
+
+	public Empleado(String nombre, Fecha fechaNacimiento, Fecha fechaIngreso) {
+		this.nombre = nombre;
+		this.fechaNacimiento = fechaNacimiento;
+		this.fechaIngreso = fechaIngreso;
+		numeroEmpleado = siguiente; 
+		siguiente ++; 
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public Fecha getFechaNacimiento() {
+		return fechaNacimiento;
+	}
+
+	public void setFechaNacimiento(Fecha fechaNacimiento) {
+		this.fechaNacimiento = fechaNacimiento;
+	}
+
+	public static Integer getSiguiente() {
+		return siguiente;
+	}
+
+	public static void setSiguiente(Integer siguiente) {
+		Empleado.siguiente = siguiente;
+	}
+
+	public Float getSalarioBase() {
+		return salarioBase;
+	}
+
+
+	public Fecha getFechaIngreso() {
+		return fechaIngreso;
+	}
+
+	public void setFechaIngreso(Fecha fechaIngreso) {
+		this.fechaIngreso = fechaIngreso;
+	}
+	
+	public void visualizar(){
+		Leer.mostrarEnPantalla(this.getClass().toString().substring(6));
+		Leer.mostrarEnPantalla(nombre);
+		Leer.mostrarEnPantalla(fechaNacimiento.fechaTexto());
+		Leer.mostrarEnPantalla(numeroEmpleado.toString());
+		Leer.mostrarEnPantalla(fechaIngreso.fechaTexto());
+	}
+}

@@ -1,0 +1,16 @@
+import utilidades.Fecha;
+import utilidades.Leer;
+public abstract class Empleado {
+	private String nombre;
+	private Fecha fechaNacimiento;
+	private static Integer siguiente;
+	private Float salarioBase;
+	private Fecha fechaIngreso;
+	
+	public Integer edadEmpleado(Fecha hoy) {
+		Integer anyos = fechaNacimiento.difFechas(hoy) / 365;
+		return anyos;
+	}
+	
+	public abstract Float calculoNomina() {}
+}

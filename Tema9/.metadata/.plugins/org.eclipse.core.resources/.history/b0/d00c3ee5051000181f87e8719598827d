@@ -1,4 +1,0 @@
-
-public class prueba {
-	Padre padre [] = new Padre[]{new Padre(), new Padre(3,4)};
-}

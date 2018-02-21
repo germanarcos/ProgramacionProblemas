@@ -1,0 +1,19 @@
+import utilidades.Fecha;
+
+public class Responsable extends Empleado {
+	
+	private float bono;
+	private String departamento;
+	private Integer personasACargo;
+	public Responsable(String nombre, Fecha fechaNacimiento, Float salarioBase, Fecha fechaIngreso) {
+		super(nombre, fechaNacimiento, salarioBase, fechaIngreso);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public Float calculoNomina() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

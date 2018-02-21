@@ -1,0 +1,52 @@
+import utilidades.Fecha;
+
+public class Responsable extends Empleado {
+
+	private final float bono = 10F;
+	private String departamento;
+	private Integer personasACargo;
+	static final Float plusResponsabilidad = 50F;
+
+	public Responsable(String nombre, Fecha fechaNacimiento, Float salarioBase, Fecha fechaIngreso, float bono,
+			String departamento, Integer personasACargo) {
+		super(nombre, fechaNacimiento, fechaIngreso);
+		this.departamento = departamento;
+		this.personasACargo = personasACargo;
+	}
+
+	public float getBono() {
+		return bono;
+	}
+
+	public String getDepartamento() {
+		return departamento;
+	}
+
+	public void setDepartamento(String departamento) {
+		this.departamento = departamento;
+	}
+
+	public Integer getPersonasACargo() {
+		return personasACargo;
+	}
+
+	public void setPersonasACargo(Integer personasACargo) {
+		this.personasACargo = personasACargo;
+	}
+
+	public static Float getPlusResponsabilidad() {
+		return plusResponsabilidad;
+	}
+
+	public Responsable(String nombre, Fecha fechaNacimiento, Float salarioBase, Fecha fechaIngreso) {
+		super(nombre, fechaNacimiento, salarioBase, fechaIngreso);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public Float calculoNomina() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

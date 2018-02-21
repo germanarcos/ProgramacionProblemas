@@ -1,0 +1,17 @@
+import utilidades.Fecha;
+
+public class Administrativo extends Empleado {
+	private float plusAntiguedad;
+	private String departamento;
+	public Administrativo(String nombre, Fecha fechaNacimiento, Float salarioBase, Fecha fechaIngreso) {
+		super(nombre, fechaNacimiento, salarioBase, fechaIngreso);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public Float calculoNomina() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

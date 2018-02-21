@@ -1,0 +1,7 @@
+
+public class Pila {
+	int [] pila = new int[500];
+	public static int pop(){
+		return 0;
+	}
+}

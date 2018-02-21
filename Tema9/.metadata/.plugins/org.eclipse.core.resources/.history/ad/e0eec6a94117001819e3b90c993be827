@@ -1,0 +1,6 @@
+
+public class Pila {
+	public static int pop(){
+		return 0;
+	}
+}

@@ -1,0 +1,22 @@
+
+public class Pila {
+	static int [] pila = new int[500];
+	static int index = 0;
+	public static int pop(){
+		int valor = pila[index];
+		pila[index]=null;
+		return valor;
+	}
+	public static void add(int entero){
+		//TODO
+	}
+	public static int[] copy(){
+		return pila;
+	}
+	public static void borrar(){
+		
+	}
+	public static boolean vacia(){
+		return true;
+	}
+}

@@ -1,0 +1,18 @@
+import utilidades.Fecha;
+
+public class Tecnico extends Empleado {
+	private String especialidad;
+	private Float plusEspecialidad;
+	private Responsable jefe;
+	public Tecnico(String nombre, Fecha fechaNacimiento, Float salarioBase, Fecha fechaIngreso) {
+		super(nombre, fechaNacimiento, salarioBase, fechaIngreso);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public Float calculoNomina() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

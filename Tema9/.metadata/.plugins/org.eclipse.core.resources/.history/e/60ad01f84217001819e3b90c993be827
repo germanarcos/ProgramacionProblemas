@@ -1,0 +1,25 @@
+import java.util.Arrays;
+
+public class Pila {
+	static Integer [] pila = new Integer[500];
+	static int index = 0;
+	public static int pop(){
+		int valor = pila[index];
+		pila[index]= null;
+		return valor;
+	}
+	public static void add(int entero){
+		//TODO
+	}
+	public static Integer[] copy(){
+		return pila;
+	}
+	public static void borrar(){
+		for(int i = 0;i<pila.length;i++){
+			pila[i]=null;
+		}
+	}
+	public static boolean vacia(){
+		return true;
+	}
+}

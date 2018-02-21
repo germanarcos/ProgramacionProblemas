@@ -1,0 +1,46 @@
+import utilidades.Fecha;
+
+public class Tecnico extends Empleado {
+	private String especialidad;
+	private final Float plusEspecialidad = 75F;
+	private Responsable jefe;
+
+	public Tecnico(String nombre, Fecha fechaNacimiento, Float salarioBase, Fecha fechaIngreso) {
+		super(nombre, fechaNacimiento, fechaIngreso);
+		// TODO Auto-generated constructor stub
+	}
+
+	public Tecnico(String nombre, Fecha fechaNacimiento, Float salarioBase, Fecha fechaIngreso, String especialidad,
+			Float plusEspecialidad, Responsable jefe) {
+		super(nombre, fechaNacimiento, salarioBase, fechaIngreso);
+		this.especialidad = especialidad;
+		this.jefe = jefe;
+	}
+
+	public String getEspecialidad() {
+		return especialidad;
+	}
+
+	public void setEspecialidad(String especialidad) {
+		this.especialidad = especialidad;
+	}
+
+	public Float getPlusEspecialidad() {
+		return plusEspecialidad;
+	}
+
+	public Responsable getJefe() {
+		return jefe;
+	}
+
+	public void setJefe(Responsable jefe) {
+		this.jefe = jefe;
+	}
+
+	@Override
+	public Float calculoNomina() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
